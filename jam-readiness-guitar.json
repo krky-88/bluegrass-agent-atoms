@@ -1,0 +1,37 @@
+{
+  "id": "kirk-kenney.bluegrass.jam-readiness.guitar.v0.1",
+  "name": "Bluegrass Jam Readiness Diagnostic — Guitar",
+  "version": "0.1",
+  "creator": "Kirk Kenney",
+  "description": "A diagnostic for gathering information relevant to whether a guitarist is ready to participate in a bluegrass jam.",
+  "use_when": [
+    "A guitarist wants to know whether they are ready to attend a bluegrass jam",
+    "A guitarist wants to identify areas to work on before jamming"
+  ],
+  "target_user": {
+    "instrument": "guitar",
+    "context": "bluegrass jam"
+  },
+  "diagnostic": {
+    "basic_mechanics": [
+      {"question": "Do you know chord shapes?"},
+      {"question": "Do you know any music theory at all?"},
+      {"question": "Can you use a capo?"},
+      {"question": "Can you strum with regular time?"}
+    ],
+    "applied_musicianship": [
+      {"question": "What songs do you know?"},
+      {"question": "Have you tried jamming with anyone yet?"},
+      {"question": "Can you play along successfully with a song recording?"},
+      {"question": "Can you sing and strum at the same time?"}
+    ]
+  },
+  "limitations": [
+    "Version 0.1 gathers diagnostic information but does not yet contain rules for making a final jam-readiness determination.",
+    "The diagnostic currently applies specifically to guitar."
+  ],
+  "provenance": {
+    "source": "Human-authored diagnostic framework",
+    "creator": "Kirk Kenney"
+  }
+}
